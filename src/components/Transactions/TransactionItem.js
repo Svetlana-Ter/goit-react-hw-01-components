@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export default function TransactionItem({type, amount, currency}) {
+export default function TransactionItem({type = '', amount = '', currency = ''}) {
     return (	
     <tr>
       <td>{type}</td>

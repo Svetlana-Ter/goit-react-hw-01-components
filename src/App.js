@@ -1,11 +1,11 @@
-import Profile from './components/profile/Profile';
-import user from './components/profile/user.json';
-import Statistics from './components/statistics/Statistics';
-import statisticalData from './components/statistics/statistical-data.json';
-import FriendsList from './components/friends/FriendsList';
-import friends from './components/friends/friends.json';
-import TransactionHistory from './components/transactions/TransactionHistory';
-import transactions from './components/transactions/transactions.json';
+import Profile from './components/Profile/Profile';
+import user from './components/Profile/user.json';
+import Statistics from './components/Statistics/Statistics';
+import statisticalData from './components/Statistics/statistical-data.json';
+import FriendsList from './components/Friends/FriendsList';
+import friends from './components/Friends/friends.json';
+import TransactionHistory from './components/Transactions/TransactionHistory';
+import transactions from './components/Transactions/transactions.json';
 
 function App() {
   return (    
